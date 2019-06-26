@@ -1,4 +1,5 @@
-카카오 오픈채팅
+* 카카오 오픈채팅
+```python
 def solution(record):
     answer = []
     chatName={}
@@ -11,6 +12,7 @@ def solution(record):
         elif i[0].split()[0] == 'L':
             answer.append(chatName[i.split()[1]]+ '님이 나갔습니다.')
     return answer
+```
 
 record	
 ["Enter uid1234 Muzi", "Enter uid4567 Prodo","Leave uid1234","Enter uid1234 Prodo","Change uid4567 Ryan"]	
